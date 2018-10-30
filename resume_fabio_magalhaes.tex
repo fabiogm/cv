@@ -1,0 +1,109 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov, Fabio Magalhaes
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{customresume}
+
+% For mathematical symbols
+\usepackage{amsmath}
+
+% Set applicant's personal data for header
+\name{Fabio Gabriel de Magalhaes}
+\address{Porto Alegre \linebreak Rio Grande do Sul, Brazil}
+\contacts{+55 51 982161084 \linebreak fmagalhaes@gmail.com}
+
+\begin{document}
+	% Print the header
+	\makeheader
+	% Print the content
+	\begin{cvsection}{Employment}
+    \begin{cvsubsection}{Software Consultant/Engineer}{ThoughtWorks}{2014 - Present}
+      \textit{Gap Inc.}
+			\begin{itemize}
+				\item Created an ecosystem of applications that enables supply chain managers to control the life-cycle of products and allocate products 
+          to stores efficiently and effectively around the world. The system supports the decision-making process by presenting metrics and forecasts. 
+				\item Extended an order routing system that fulfills all orders from the company e-commerce. Created configurable options to tune order routing 
+          process to remove stranded inventory from certain locations, optimizing profits.
+			\end{itemize}
+      \vspace{5pt}
+      \textit{Leading US Healthcare Improvement Company}
+      \begin{itemize}
+        \item Created a web-based application for accounting reconciliation and revenue forecasting, enabling contract managers to take corrective actions
+          sooner and increase revenue. The forecast service provided highly accurate predictions that required human intervention in less than 2\% of cases.
+      \end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Freelance Software Engineer}{}{2012 - 2013}	
+			\begin{itemize}
+        \item Developed a small scale Content Management System (CMS) using Python running on Google App Engine platform.
+				\item Developed prototypes for platform games using Python and PyGame.
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Software Consultant/Engineer}{Tools and Technologies}{2009 - 2011}		
+      \textit{Leading Brazilian Electronic Payment Provider}
+			\begin{itemize}
+        \item Implemented software for Automatic Teller Machines with innovative cash recycling hardware (first to operate in Brazil). 
+			\end{itemize}
+      \vspace{5pt}
+      \textit{Hewlett Packard}
+      \begin{itemize}
+				\item Extended the firmware for hardware monitoring module of a virtual storage disk array system.
+      \end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Software Consultant/Engineer}{Datum TI}{2008 - 2009}
+      Large Government-Owned Brazilian Bank
+			\begin{itemize}
+        \item Extended banking systems used by bank tellers to perform all transactions.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{Brazil}{Federal University of Rio Grande do Sul}{2012 - 2016}
+			\begin{itemize}
+				\item B.S.c. in Applied Mathematics, December 2016.
+				\item Relevant coursework: Calculus; Advanced Calculus; Ordinary Differential Equations; Partial Differential Equations; Statistics; 
+          Computational Statistics, Combinatorial Optimization.
+			\end{itemize}
+		\end{cvsubsection}
+		\begin{cvsubsection}{Brazil}{Unisinos}{2006 - May 2010}
+			\begin{itemize}
+        \item B.S.c. in Computer Science (not graduated).
+        \item Relevant coursework: Programming in Java; Programming in C++; Data Structures; Computational Complexity; Computational Theory; Information Theory.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+
+	\begin{cvsection}{Languages, Technologies, Methodologies and Other}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+        \item Java (Spring, Spring Boot); Python; Ruby (Ruby on Rails); C; JavaScript (Node.js); R; C++; SQL
+        \item PostgreSQL; MongoDB; Hive; HBase;
+        \item Microservices, REST APIs; Event-driven Architectures; RabbitMQ; Pivotal Cloud Foundry; Amazon Web Services
+        \item Agile software development; lean practices; test-driven development; behavior-driven development
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+\end{document}
